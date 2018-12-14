@@ -1,0 +1,60 @@
+thead{
+    list-style-position: outside;
+    align-content: space-between;
+}
+
+th {
+    margin-left: 100%;
+    margin-right: 100%;
+}
+  
+a {
+    -moz-user-select: none;
+    
+    position: relative;
+    cursor: pointer;
+    background-color: #EEE;
+    margin: .1em;
+    padding: .1em 0;
+    height: 1em;
+    border-radius: 2px;
+  }
+
+
+
+a:hover {
+    color: #607D8B;
+    background-color: #DDD;
+    left: .1em;
+  }
+
+
+
+span {
+    -moz-user-select: none;
+}
+
+.badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color: #607D8B;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    min-width: 16px;
+    text-align: right;
+    margin-right: -.8em;
+    border-radius: 15px 15px 15px 15px;
+    -moz-user-select: none;
+  }
+
+tbody {
+    height: 100px;       /* Just for the demo          */
+    width: 100px; 
+    overflow-y: auto;    /* Trigger vertical scroll    */
+  }
+
